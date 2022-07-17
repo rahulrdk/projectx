@@ -13,3 +13,8 @@ def contactsdef(request):
 
 def homedef(request):
     return render(request,'user/home.html')
+def logindef(request):
+    return render(request,'user/login.html')
+
+def baabtra(request):
+    return render(request,'user/baabtra.html')

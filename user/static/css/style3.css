@@ -1,0 +1,45 @@
+h2{color: brown;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a[id='ybid']{
+    font-family: 'Courier New', Courier, monospace;
+    color: brown;
+    padding: 5px;
+    border-radius: 10px;
+    border: 5px red outset;
+    margin: 20px;
+}
+a[href='https://www.whatsapp.com/']{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: green;
+    padding: 5px;
+    border: 5px green outset;
+    border-radius: 10px;
+    margin: 20px;
+}
+a[id='idfb']{
+    border-width: 5px;
+    border-color: blue;
+    border-style: outset;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 20px;
+}
+#p1{
+    background-color:lightgray;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+h1{
+    display: inline-block;
+    visibility: visible;
+}
+a{
+    display: block;
+}
+li{
+    display: inline;
+}

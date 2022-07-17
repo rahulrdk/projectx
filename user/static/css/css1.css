@@ -1,0 +1,14 @@
+#h1{
+    color: red;
+    font-size: 200px;
+    font-style: italic;
+}
+#h2{
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+}
+.style1{
+    color:blueviolet ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}

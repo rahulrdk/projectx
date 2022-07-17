@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>home</title>
+    <link rel="stylesheet" href="{% static 'css/css1.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style2.css' %}">
+
 </head>
 <body>
     <ol type="i">
@@ -13,12 +16,16 @@
         <li><a href="{% url 'index' %}">Home window</a></li>
         <li><a href="{% url 'about' %}">About</a></li>
         <li><a href="{% url 'contacts' %}">Contact</a></li>
+        <li><a href="{% url 'baabtra' %}">Baabtra</a></li>
         {% block content %}
         <li><a href="{% url 'home' %}">home</a></li>
         {% endblock %}
         <br>
         <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate rerum qui eius deleniti, delectus, cum magni nobis laborum iste perferendis accusamus voluptatum sint officiis necessitatibus culpa soluta. Enim, repellat ea.</h2>
-
+        <h1 id="h1">hello</h1>
+        <h1 id="h2">welcome</h1>
+        <h1 class="style1">home</h1>
+        <p  class="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quas consequuntur ex vero voluptatem expedita suscipit labore laudantium commodi accusantium. Illum adipisci eius atque tempora cum deleniti sed. Eos, nemo.</p>
     </ol>
 </body>
 </html>
